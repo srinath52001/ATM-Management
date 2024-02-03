@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+<style>
+			*{
+		margin:0px;
+		padding:0px;
+		}
+
+			h2{
+			background-color:darkgreen;
+			height:30px;
+			padding:20px 10px;
+		}
+		.t{
+			background-color:black;
+			height:23px;
+			padding:5px 10px;
+		}
+		a{
+			color:white;
+			text-decoration:none;
+		}
+		
+		.t2{
+			padding:50px;
+			font-size:30px;	
+		}
+		.span{
+		padding:10px;
+		}
+		.d{
+			padding:0px 150px;
+			font-size:20px;	
+		}
+		.r{
+				padding:0px 10px;
+		}
+		img{
+				width:250px;
+				height:250px;
+		}
+		.bk{
+			width:75%;
+			box-shadow:	5px 5px 5px 5px #888888;
+			background-color:#F8F8FF;	
+		}
+		
+	
+</style>
+
+
+</head>
+<body>
+
+		<h2>ATM MANAGEMENT</h2>
+	<form action="register" method="post">
+		
+		<div class="t">
+			<a href="welcome.html">Home</a>
+			&nbsp;&nbsp;<a href="services.html">Our Services</a>
+			&nbsp;&nbsp;<a href="issues.html">Help</a>
+			&nbsp;&nbsp;<a href="login.html">Login</a>
+			&nbsp;&nbsp;<a href="register.html">Register</a>
+		</div>
+		
+		<center>
+		<div class="bk">	
+			<div class="t2">
+				<h1>Register!</h1>
+			</div>
+			
+			<div class="d">
+				<table>
+					<tr>
+						<td>Account No</td>
+						<td>Pin</td>
+					</tr>
+					<tr>
+						<td><input type="text" name="actno"  placeholder="Enter Account No" style="width: 297px; height: 35px;"></td>
+						<td><input type="password" name="pin" style="width: 297px; height: 35px; "></td>
+					</tr>
+					<tr>
+						<td>First Name</td>
+						<td>Last Name</td>
+					</tr>
+					<tr>
+						<td><input type="text" name="fname"  placeholder="Enter First Name"style="width: 297px; height: 35px;"></td>
+						<td><input type="text" name="lname"  placeholder="Enter Last Name" style="width: 297px; height: 35px;"></td>
+					</tr>
+					<tr>
+						<td>Email Id</td>
+						<td>Date of Birth</td>
+					</tr>
+					<tr>
+						<td><input type="text" name="email"  placeholder="Enter login Id" style="width: 297px; height: 35px;"></td>
+						<td><input type="date" name="dob"  placeholder="Enter Date of Birth" style="width: 297px; height: 35px;"></td>
+					</tr>
+					<tr>
+						<td>Mobile No</td>
+						<td>Gender</td>
+					</tr>
+					<tr>
+						<td><input type="text" name="m"  placeholder="Enter Mobile No" style="width: 297px; height: 35px;"></td>
+						<td >
+							<select  name="gender" style="width: 297px; height: 35px;">
+								<option selected  hidden>Gender</option>
+								<option  value="male">male</option>
+								<option  value="Female">Female</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td><br></td>
+					</tr>
+					<tr><td style="padding-left:24%;"rowspan="2"><input type="submit" value="register" style="width: 290px; height: 30px; "></td></tr>
+				</table>
+			</div>
+		</div>
+		</center>
+	</form>
+
+
+</body>
+</html>
